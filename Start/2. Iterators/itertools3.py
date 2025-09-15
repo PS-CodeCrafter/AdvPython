@@ -14,7 +14,7 @@ def testFunction(x):
     return x < 40
 
 # dropwhile() drops values until the predicate expression is True
-#print(list(itertools.dropwhile(testFunction,vals)))
+print(list(itertools.dropwhile(testFunction,vals)))
 
 # takewhile() is the opposite of dropwhile() - it returns values from
 # the iterable while the predicate is True, then stops
